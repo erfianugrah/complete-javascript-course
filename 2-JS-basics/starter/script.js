@@ -23,7 +23,7 @@ console.log(job);
 // Variable Naming Rules
 var _3years = 3;
 var johnMark = 'John and Mark';
-var if = 23;
+// var if = 23;
 
 /******************************
 * Variable mutation and type coercion
@@ -33,3 +33,18 @@ var firstName = 'Erfi';
 var age = 26;
 
 console.log(firstName + ' ' + age);
+
+var job, isMarried;
+job = 'teacher';
+isMarried = false;
+
+console.log(firstName + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried);
+
+// Variable Mutation
+age = 'twenty eight';
+job = 'driver';
+
+alert(firstName + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried);
+
+var lastName = prompt('What is his last name?');
+console.log(firstName + ' ' + lastName);
