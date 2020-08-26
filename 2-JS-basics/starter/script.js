@@ -81,7 +81,6 @@ console.log(typeof x);
 
 /******************************
 * Operator Precedence
-*/
 
 var now = 2020;
 var yearJohn = 1989;
@@ -101,3 +100,19 @@ console.log(average);
 var x, y;
 x = (3 + 5) * 4 - 5; // 8 * 4 - 6 // 32 - 6 // 26
 console.log(x);
+*/
+
+/******************************
+* Coding Challenge 1
+*/
+
+var massMark = 60;
+var heightMark = 1.65;
+var massJohn = 78;
+var heightJohn = 1.75;
+
+var bmiMark = massMark / (heightMark^2);
+var bmiJohn = massJohn / (heightJohn^2);
+
+var markHigherBMI = miMark > bmiJohn;
+console.log('Is Mark\'s BMI higher than John\'s BMI? ' + markHigherBMI);
